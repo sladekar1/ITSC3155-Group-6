@@ -18,4 +18,4 @@ layout = go.Layout(title='Total medals of Olympic 2016 of 20 first top countries
 
 # Plot the figure and saving in a html file
 fig = go.Figure(data=data, layout=layout)
-pyo.plot(fig, filename='barchart.html')
+pyo.plot(fig, filename='BarChartOlympic.html')
