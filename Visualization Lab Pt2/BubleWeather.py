@@ -27,5 +27,5 @@ layout = go.Layout(title='Average Max, Min temperature of each month', xaxis_tit
 
 # Plot the figure and saving in a html file
 fig = go.Figure(data=data, layout=layout)
-pyo.plot(fig, filename='bubblechart.html')
+pyo.plot(fig, filename='bubbleweather.html')
 
